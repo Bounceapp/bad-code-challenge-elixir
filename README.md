@@ -4,7 +4,7 @@
 
 Add a Todo:
 ```elixir
-mix bounce_backend_challenge --operation add --todo teste          
+mix bounce_backend_challenge --operation add --todo Study
 ```
 
 List Todos:
