@@ -1,21 +1,18 @@
 # BounceBackendChallenge
 
-**TODO: Add description**
+## Usage
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `bounce_backend_challenge` to your list of dependencies in `mix.exs`:
-
+Add a Todo:
 ```elixir
-def deps do
-  [
-    {:bounce_backend_challenge, "~> 0.1.0"}
-  ]
-end
+mix bounce_backend_challenge --operation add --todo teste          
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/bounce_backend_challenge>.
+List Todos:
+```elixir
+mix bounce_backend_challenge --operation list
+```
 
+Remove a Todo:
+```elixir
+mix bounce_backend_challenge --operation delete --id 13
+```
